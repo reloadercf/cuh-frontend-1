@@ -98,7 +98,36 @@ section h2{
     align-items: center;
 }
 
+.article .info-article h3{
+    font-size: 50px;
+}
 
+.article .info-article p{
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 2;
+}   
+
+.article .info-article a{
+    padding: .5em;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: seagreen;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    background: black;
+}
 
 
 
