@@ -22,7 +22,6 @@ body{
     flex-direction: column;
     align-items: center;
     position: absolute;
-  
 }
 
 .perfil h1{
@@ -34,3 +33,76 @@ body{
     height: 250px;
     border-radius: 50%;
 }
+
+.contacto{ 
+  padding: 2em;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto a{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: .5em;
+    background: #59cd65;
+}
+
+.contacto a:hover{
+    background: #0E76A8;
+    color: #ffffff;
+}
+
+
+
+section{
+    padding: 1em 4em 1em 4em;
+}
+
+section h2{
+    padding: .5em;
+    font-size: 30px;
+    text-align: left;
+    color: #857a7a;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    50%{background-color: rgb(67, 85, 84);}
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article img{
+    width: 25%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.article .info-article{
+    width: 70%;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
