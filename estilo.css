@@ -1,0 +1,16 @@
+.header{
+    background-image: url("./imagenes/header.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+.perfil{
+    position: absolute;
+}
+
+.perfil h1{
+    color: #ffffff;
+}
+
+.perfil img{
+    width: 10%;
+}
