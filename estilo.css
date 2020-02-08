@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    background:#868548;
+  
 }
 
 .perfil h1{
@@ -30,5 +30,7 @@ body{
 }
 
 .perfil img{
-    width: 10%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
